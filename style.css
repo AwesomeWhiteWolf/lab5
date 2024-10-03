@@ -1,0 +1,165 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #538392;
+	color: #FDFFE2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center
+}
+
+header {
+	background-color: #6295A2;
+	padding: 10px 0px;
+	width: 100%;
+	text-align: center;
+}
+
+main {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.block {  
+	margin-top: 5px;
+	width: 150px;       
+	height: 40px;  
+	border: 0.2px black solid;    
+	border-radius: 15px;
+}  
+#block1 {
+	background: linear-gradient(to right, red 25%, #538392 5%);
+}
+#block2 {
+	background: linear-gradient(to right, yellow 70%, #538392 25%);
+}
+#block3 {
+	background: linear-gradient(to right, green 100%, #538392 0%);
+}
+
+button {
+	margin-top: 15px;
+	width: 120px;       
+	height: 30px; 
+	border-radius: 10px;
+}
+#b1 {
+	background: linear-gradient(to bottom, lightblue 40%, white 75%);
+}
+#b2 {
+	background: linear-gradient(0deg, rgba(0,255,4,1) 0%, rgba(8,8,9,0.1) 54%, rgba(0,255,4,1) 100%);
+}
+#b3 {
+	background: linear-gradient(0deg, lightblue 0%, white 70%, lightblue 100%);
+}
+#b4 {
+	background: linear-gradient(0deg, black 5%, white 70%, black 100%);
+}
+#b5 {
+	background: linear-gradient(0deg, gray 5%, white 70%, gray 100%);
+}
+
+.transparent-block {  
+	background-color: rgba(255, 255, 255, 0.2); /* Полупрозрачный красный */  
+	width: calc(100% - 40px); /* Убираем отступы по 20px с каждой стороны */  
+	height: calc(100% - 40px); /* Убираем отступы по 20px сверху и снизу */  
+	margin: 20px; /* Отступы вокруг блока */  
+	padding: 20px; /* Отступы внутри блока */  
+	box-sizing: border-box; /* Учитываем отступы в размере блока */  
+	color: white; /* Цвет текста */  
+}  
+
+#task3 {
+	margin-top: 20px;
+	width: 50%;
+	height: 50%;
+	background: repeating-linear-gradient(
+		45deg,
+		red,
+		red 5px,
+		gray 5px,
+		gray 10px
+		);
+}
+.image {  
+	float: right; 
+	margin-left: 20px; 
+	width: 70px; 
+	height: auto; 
+}  
+
+.bl {  
+	width: 80px; 
+	margin: 2.5%; /* Отступ для центровки между блоками */  
+	color: black; /* Цвет текста */  
+	text-align: center; 
+	padding: 20px; /* Внутренний отступ */  
+	box-sizing: border-box; /* Учитывание отступов в ширине */  
+}  
+.red {
+	float: left top;
+	height: 140px;
+	background-color: red;
+	border-radius: 30% 0% 0% 0%;
+}
+.yellow {
+	float: right top; 
+	background-color: yellow;
+	border-radius: 0% 30% 0% 0%;
+}
+.blue {
+	float: bottom left;
+	background-color: blue;
+	border-radius: 0% 0% 0% 30%;
+}
+.green {
+	float: right bottom;
+	height: 140px;
+	background-color: green;
+	border-radius: 0% 0% 30% 0%;
+}
+
+#task5 {
+	margin-bottom: 100px; 
+}
+.elem { 
+	width: 400px; 
+	height: 400px;   
+	position: relative; /* Для абсолютного позиционирования внутренних элементов */  
+}  
+.black {  
+	background-color: black; 
+	width: 100%; 
+	height: 100%; 
+	position: relative;  
+}  
+
+.white {  
+	width: 65%; 
+	height: 65%; 
+	margin-left: 20px;
+	margin-top: 17%;
+	background-color: white; 
+	position: absolute;  
+	left: 0; 
+} 
+.elem1 {
+	margin-top: 11%;
+	margin-left: 35px;
+	width: 210px;  
+	height: 210px;
+}
+.elem2 {
+	margin-top: 11%;
+	margin-left: 20px;
+	width: 110px;  
+	height: 110px;
+}
